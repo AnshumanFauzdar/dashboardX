@@ -18,22 +18,24 @@
       <nav>
         <div class="nav nav-tabs" id="nav-tab" role="tablist" style="margin-left: 1%;">
           <button class="nav-link active" id="nav-home-tab" data-bs-toggle="tab" data-bs-target="#nav-home" type="button" role="tab" aria-controls="nav-home" aria-selected="true" style="border-bottom: 5px solid; border-bottom-color:#568cbd">OVERVIEW</button>
-          <!-- <button class="nav-link" id="nav-sales-tab" data-bs-toggle="tab" data-bs-target="#nav-sales" type="button" role="tab" aria-controls="nav-sales" aria-selected="false">SALES</button>
-          <button class="nav-link" id="nav-contact-tab" data-bs-toggle="tab" data-bs-target="#nav-fulfillment" type="button" role="tab" aria-controls="nav-contact" aria-selected="false">FULFILLMENT</button> -->
-          <!-- <button class="nav-link" id="nav-home-tab" data-bs-toggle="tab" data-bs-target="#nav-purchases" type="button" role="tab" aria-controls="nav-home" aria-selected="true">PURCHASES</button>
+           <!-- <button class="nav-link" id="nav-sales-tab" data-bs-toggle="tab" data-bs-target="#nav-sales" type="button" role="tab" aria-controls="nav-sales" aria-selected="false">SALES</button>
+          <button class="nav-link" id="nav-contact-tab" data-bs-toggle="tab" data-bs-target="#nav-fulfillment" type="button" role="tab" aria-controls="nav-contact" aria-selected="false">FULFILLMENT</button>
+           <button class="nav-link" id="nav-home-tab" data-bs-toggle="tab" data-bs-target="#nav-purchases" type="button" role="tab" aria-controls="nav-home" aria-selected="true">PURCHASES</button>
           <button class="nav-link" id="nav-profile-tab" data-bs-toggle="tab" data-bs-target="#nav-returns" type="button" role="tab" aria-controls="nav-profile" aria-selected="false">RETURNS</button>
           <button class="nav-link" id="nav-contact-tab" data-bs-toggle="tab" data-bs-target="#nav-inventory" type="button" role="tab" aria-controls="nav-contact" aria-selected="false">INVENTORY</button>
           <button class="nav-link" id="nav-contact-tab" data-bs-toggle="tab" data-bs-target="#nav-payments" type="button" role="tab" aria-controls="nav-contact" aria-selected="false">PAYMENTS</button>
-        </div> -->
+        -->
+        </div>
       </nav>
 
+      <div class="container-fluid">
       <div class="tab-content" id="nav-tabContent">
 
       <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab" style="margin: 1%">
 
         
       <!-- Top Charts -->
-      <div class="row"  style="margin-top: 2%;">
+      <div class="row"  style="margin-top: 1%;">
         <!-- first graph -->
 
         <div class="col-sm" style="margin-top: 1%;">
@@ -107,32 +109,32 @@
             <!-- CHARTS - 2nd Row Start -->
 
             <!-- 1st graph -->
-            <div class="row"  style="margin-top: 2%;">
-              <div class="col" style="margin-top: 1%;">
-              <div class="card border-light">
+            <div class="row"  style="margin-top: 1%;">
+              <div class="col-sm" style="margin-top: 1%;">
+              <div class="card">
                 <div id="chart-5"></div>
               </div>
               </div>
 
               <!-- 2nd Graph -->
       
-              <div class="col" style="margin-top: 1%;">
-                <div class="card border-light">
+              <div class="col-sm" style="margin-top: 1%;">
+                <div class="card">
                   <div id="chart-6"></div>
                 </div>
                </div>
 
                <!-- 3rd Graph -->
       
-               <div class="col" style="margin-top: 1%;">
-                <div class="card border-light">
-                 <div id="chart-7"  style="width: 90%;"></div>
+               <div class="col-sm" style="margin-top: 1%;">
+                <div class="card">
+                 <div id="chart-7"></div>
                 </div>  
           </div>
       </div>
 
       <!-- Table Starts -->
-      <div class="card" style="margin-top: 3%;">
+      <div class="card" style="margin-top: 2%;">
       <div class="col table-responsive" >
        
       <table class="table" style="border-color: #edeff1;">
@@ -313,6 +315,8 @@
 
 
       </div>
+    </div>
+
         <!-- <div class="tab-pane fade" id="nav-sales" role="tabpanel" aria-labelledby="nav-profile-tab">Sample</div>
         <div class="tab-pane fade" id="nav-fulfillment" role="tabpanel" aria-labelledby="nav-contact-tab">Sample2</div> -->
       </div>
@@ -568,7 +572,7 @@ var options = {
         plotOptions: {
           bar: {
             horizontal: false,
-            columnWidth: '55%',
+            columnWidth: '50%',
             endingShape: 'rounded'
           },
         },
