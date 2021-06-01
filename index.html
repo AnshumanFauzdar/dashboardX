@@ -32,13 +32,13 @@
       <nav>
         <div class="nav nav-tabs" id="nav-tab" role="tablist" style="margin-left: 1%;">
           <button class="nav-link active" id="nav-home-tab" data-bs-toggle="tab" data-bs-target="#nav-home" type="button" role="tab" aria-controls="nav-home" aria-selected="true" style="border-bottom: 5px solid; border-bottom-color:#568cbd">OVERVIEW</button>
-           <!-- <button class="nav-link" id="nav-sales-tab" data-bs-toggle="tab" data-bs-target="#nav-sales" type="button" role="tab" aria-controls="nav-sales" aria-selected="false">SALES</button>
-          <button class="nav-link" id="nav-contact-tab" data-bs-toggle="tab" data-bs-target="#nav-fulfillment" type="button" role="tab" aria-controls="nav-contact" aria-selected="false">FULFILLMENT</button>
-           <button class="nav-link" id="nav-home-tab" data-bs-toggle="tab" data-bs-target="#nav-purchases" type="button" role="tab" aria-controls="nav-home" aria-selected="true">PURCHASES</button>
-          <button class="nav-link" id="nav-profile-tab" data-bs-toggle="tab" data-bs-target="#nav-returns" type="button" role="tab" aria-controls="nav-profile" aria-selected="false">RETURNS</button>
           <button class="nav-link" id="nav-contact-tab" data-bs-toggle="tab" data-bs-target="#nav-inventory" type="button" role="tab" aria-controls="nav-contact" aria-selected="false">INVENTORY</button>
+          <button class="nav-link" id="nav-sales-tab" data-bs-toggle="tab" data-bs-target="#nav-sales" type="button" role="tab" aria-controls="nav-sales" aria-selected="false">SALES</button>
+          <button class="nav-link" id="nav-profile-tab" data-bs-toggle="tab" data-bs-target="#nav-returns" type="button" role="tab" aria-controls="nav-profile" aria-selected="false">RETURNS</button>
+          <button class="nav-link" id="nav-contact-tab" data-bs-toggle="tab" data-bs-target="#nav-fulfillment" type="button" role="tab" aria-controls="nav-contact" aria-selected="false">FULFILLMENT</button>
+          <button class="nav-link" id="nav-home-tab" data-bs-toggle="tab" data-bs-target="#nav-purchases" type="button" role="tab" aria-controls="nav-home" aria-selected="true">PURCHASES</button>
           <button class="nav-link" id="nav-contact-tab" data-bs-toggle="tab" data-bs-target="#nav-payments" type="button" role="tab" aria-controls="nav-contact" aria-selected="false">PAYMENTS</button>
-        -->
+        
         </div>
       </nav>
 
@@ -47,7 +47,20 @@
 
       <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab" style="margin: 1%">
 
-        
+        <div class="row text-center"  style="margin-top: 1%;">
+          <div class="col-md-3"><form action="#">
+            <label for="from">From:</label>
+            <input type="date" id="from" name="from">
+          </form>
+        </div>
+          <div class="col-md-3"><form action="#">
+            <label for="to">To:</label>
+            <input type="date" id="To" name="To">
+            <input type="submit">
+          </form>
+        </div>          
+        </div>
+       
       <!-- Top Charts -->
       <div class="row"  style="margin-top: 1%;">
         <!-- first graph -->
@@ -324,16 +337,1787 @@
     </div>
     </div>
     </div>
+    </div>
+ <!-- Overview tab ended -->
+
+  <!-- Iventory tab starts -->
+      <div class="tab-pane fade" id="nav-inventory" role="tabpanel" aria-labelledby="nav-home-tab" style="margin: 1%">
+
+        <div class="row text-center"  style="margin-top: 1%;">
+          <div class="col-md-3"><form action="#">
+            <label for="from">From:</label>
+            <input type="date" id="from" name="from">
+          </form>
+        </div>
+          <div class="col-md-3"><form action="#">
+            <label for="to">To:</label>
+            <input type="date" id="To" name="To">
+            <input type="submit">
+          </form>
+        </div>          
+        </div>
+        <!-- Top Charts -->
+      <div class="row"  style="margin-top: 1%;">
+        <!-- first graph -->
+
+        <div class="col-md-3 ml-md-auto" style="margin-top: 1%;">
+          <div class="card" style="height: 6em;">
+            <table>
+              <tr >
+                <th style="padding-left: 5%; padding-top: 5%;"><h2 class="graph-heading">₹35,845</h2></th>
+                <th style="padding-top: 8%;"><div id="chart-1"></div></th>
+              </tr>
+              <tr>
+                <th style="padding-left: 5%;" class="sub-heading">Daily Average</th>
+                <th></th>
+              </tr>
+            </table>
+          </div>
+        </div>
+
+        <!-- Second Graph -->
+
+        <div class="col-md-3 ml-md-auto" style="margin-top: 1%;">
+          <div class="card" style="height: 6em;">
+            <table>
+              <tr >
+                <th style="padding-left: 5%; padding-top: 5%;"><h2>₹23,845</h2></th>
+                <th style="padding-top: 8%;"><div id="chart-2"></div></th>
+              </tr>
+              <tr>
+                <th style="padding-left: 5%;" class="sub-heading">Revenue</th>
+                <th></th>
+              </tr>
+            </table>
+          </div>
+        </div>
+
+        <!-- 3rd Graph -->
+
+        <div class="col-md-3 ml-md-auto" style="margin-top: 1%;">
+          <div class="card" style="height: 6em;">
+            <table>
+              <tr >
+                <th style="padding-left: 5%; padding-top: 5%;"><h2>6235</h2></th>
+                <th style="padding-top: 8%;"><div id="chart-3"></div></th>
+              </tr>
+              <tr>
+                <th style="padding-left: 5%;" class="sub-heading">Online Orders</th>
+                <th></th>
+              </tr>
+            </table>
+          </div>
+        </div>
+
+        <!-- 4th Graph -->
+
+        <div class="col-md-3 ml-md-auto" style="margin-top: 1%;">
+          <div class="card" style="height: 6em;">
+            <table>
+              <tr >
+                <th style="padding-left: 5%; padding-top: 5%;"><h2>6424</h2></th>
+                <th style="padding-top: 8%;"><div id="chart-4"></div></th>
+              </tr>
+              <tr>
+                <th style="padding-left: 5%;" class="sub-heading">New Customers</th>
+                <th></th>
+              </tr>
+            </table>
+          </div>
+        </div>
+
+      </div>
+       
+            <!-- CHARTS - 2nd Row Start -->
+
+            <!-- 1st graph -->
+            <div class="row"  style="margin-top: 1%;">
+              <div class="col-sm" style="margin-top: 1%;">
+              <div class="card">
+                <div id="chart-5" class="d-flex justify-content-center"></div>
+              </div>
+              </div>
+
+              <!-- 2nd Graph -->
+      
+              <div class="col-sm" style="margin-top: 1%;">
+                <div class="card">
+                  <div id="chart-6" class="d-flex justify-content-center"></div>
+                </div>
+               </div>
+
+               <!-- 3rd Graph -->
+      
+               <div class="col-sm" style="margin-top: 1%;">
+                <div class="card">
+                 <div id="chart-7" class="d-flex justify-content-center"></div>
+                </div>  
+          </div>
       </div>
 
+      <!-- Table Starts -->
+      <div class="card" style="margin-top: 2%;">
+      <div class="col table-responsive" >
+       
+      <table class="table" style="border-color: #edeff1;">
+          <tr>
+            <th>Sales</th>
+            <th>Date</th>
+            <th>Amount</th>
+            <th>Quantity</th>
+            <th>Price</th>
+            <th>Product Name</th>
+            <th>Product ID</th>
+          </tr>
+          <tr>
+            <th scope="row">34</th>
+            <td>Sep 1, 2020</td>
+            <td>₹85,899</td>
+            <td>62</td>
+            <td>₹26,899</td>
+            <td>New razer</td>
+            <td>523452</td>
+          </tr>
+          <tr>
+            <th scope="row">56</th>
+            <td>November 3, 2020</td>
+            <td>₹85,236</td>
+            <td>73</td>
+            <td>₹35,899</td>
+            <td>Phone</td>
+            <td>2345</td>
+          </tr>
+          <tr>
+            <th scope="row">75</th>
+            <td>January 4, 2020</td>
+            <td>₹26,899</td>
+            <td>867</td>
+            <td>₹46,899</td>
+            <td>TV</td>
+            <td>3462</td>
+          </tr>
+          <tr>
+            <th scope="row">23</th>
+            <td>October 1, 2020</td>
+            <td>₹85,345</td>
+            <td>684</td>
+            <td>₹34,899</td>
+            <td>Coffee</td>
+            <td>3524</td>
+          </tr>
+          <tr>
+            <th scope="row">87</th>
+            <td>March 21, 2020</td>
+            <td>₹26,899</td>
+            <td>345</td>
+            <td>₹64,899</td>
+            <td>Table</td>
+            <td>23532</td>
+          </tr>
+          <tr>
+            <th scope="row">57</th>
+            <td>April 10, 2020</td>
+            <td>₹85,362</td>
+            <td>235</td>
+            <td>₹62,899</td>
+            <td>Keyboard</td>
+            <td>5342</td>
+          </tr>
+      </table>
+    </div>
+    </div>
+    <!-- Table Ends -->
+
+
+    <div class="row">
+    <!-- Pie chart -->
+    <div class="col-xl-4" style="margin-top: 2%;">
+      <div class="card">
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item"><div class="d-flex justify-content-center"><div id="donut" style="width: 400px;"></div></div></li>
+          <li class="list-group-item"><div class="row text-center">
+            <div class="col">
+              Target
+            </div>
+            <div class="col">
+              Last Week
+            </div>
+            <div class="col">
+              Last Month
+            </div>
+          </div></li>
+          <li class="list-group-item"><div class="row text-center">
+            <div class="col">
+              <h4>₹34,857</h4> 
+            </div>
+            <div class="col">
+             <h4>₹53,857</h4>
+            </div>
+            <div class="col">
+              <h4>₹62,857</h4>
+            </div>
+          </div></li>
+        </ul>
       </div>
     </div>
 
-        <!-- <div class="tab-pane fade" id="nav-sales" role="tabpanel" aria-labelledby="nav-profile-tab">Sample</div>
-        <div class="tab-pane fade" id="nav-fulfillment" role="tabpanel" aria-labelledby="nav-contact-tab">Sample2</div> -->
+    <!-- Pie chart ends -->
+    <div class="col-xl-8" style="margin-top: 2%;">
+      <div class="card table-responsive">
+      <table class="table table-borderless" style="border-color:#edeff1;">
+          <tr>
+            <th scope="col">Sales</th>
+            <th scope="col">Date</th>
+            <th scope="col">Amount</th>
+            <th scope="col">Quantity</th>
+            <th scope="col">Price</th>
+            <th scope="col">Product Name</th>
+            <th scope="col">Product ID</th>
+          </tr>
+          <tr>
+            <th scope="row">34</th>
+            <td>Sep 1, 2020</td>
+            <td>₹85,899</td>
+            <td>62</td>
+            <td>₹26,899</td>
+            <td>New razer</td>
+            <td>523452</td>
+          </tr>
+          <tr>
+            <th scope="row">56</th>
+            <td>November 3, 2020</td>
+            <td>₹85,236</td>
+            <td>73</td>
+            <td>₹35,899</td>
+            <td>Phone</td>
+            <td>2345</td>
+          </tr>
+          <tr>
+            <th scope="row">75</th>
+            <td>January 4, 2020</td>
+            <td>₹26,899</td>
+            <td>867</td>
+            <td>₹46,899</td>
+            <td>TV</td>
+            <td>3462</td>
+          </tr>
+          <tr>
+            <th scope="row">23</th>
+            <td>October 1, 2020</td>
+            <td>₹85,345</td>
+            <td>684</td>
+            <td>₹34,899</td>
+            <td>Coffee</td>
+            <td>3524</td>
+          </tr>
+          <tr>
+            <th scope="row">87</th>
+            <td>March 21, 2020</td>
+            <td>₹26,899</td>
+            <td>345</td>
+            <td>₹64,899</td>
+            <td>Table</td>
+            <td>23532</td>
+          </tr>
+          <tr>
+            <th scope="row">57</th>
+            <td>April 10, 2020</td>
+            <td>₹85,362</td>
+            <td>235</td>
+            <td>₹62,899</td>
+            <td>Keyboard</td>
+            <td>5342</td>
+          </tr>
+      </table>
+    </div>
+    </div>
+    </div>
+      
       </div>
+  <!-- Iventory tab ends -->
+
+  <!-- Sales tab start -->
+  <div class="tab-pane fade" id="nav-sales" role="tabpanel" aria-labelledby="nav-home-tab" style="margin: 1%"> 
+
+    <div class="row text-center"  style="margin-top: 1%;">
+      <div class="col-md-3"><form action="#">
+        <label for="from">From:</label>
+        <input type="date" id="from" name="from">
+      </form>
+    </div>
+      <div class="col-md-3"><form action="#">
+        <label for="to">To:</label>
+        <input type="date" id="To" name="To">
+        <input type="submit">
+      </form>
+    </div>          
+    </div>
+
+    <div class="row"  style="margin-top: 1%;">
+      <!-- first graph -->
+
+      <div class="col-md-3 ml-md-auto" style="margin-top: 1%;">
+        <div class="card" style="height: 6em;">
+          <table>
+            <tr >
+              <th style="padding-left: 5%; padding-top: 5%;"><h2 class="graph-heading">₹35,845</h2></th>
+              <th style="padding-top: 8%;"><div id="chart-1"></div></th>
+            </tr>
+            <tr>
+              <th style="padding-left: 5%;" class="sub-heading">Daily Average</th>
+              <th></th>
+            </tr>
+          </table>
+        </div>
       </div>
+
+      <!-- Second Graph -->
+
+      <div class="col-md-3 ml-md-auto" style="margin-top: 1%;">
+        <div class="card" style="height: 6em;">
+          <table>
+            <tr >
+              <th style="padding-left: 5%; padding-top: 5%;"><h2>₹23,845</h2></th>
+              <th style="padding-top: 8%;"><div id="chart-2"></div></th>
+            </tr>
+            <tr>
+              <th style="padding-left: 5%;" class="sub-heading">Revenue</th>
+              <th></th>
+            </tr>
+          </table>
+        </div>
       </div>
+
+      <!-- 3rd Graph -->
+
+      <div class="col-md-3 ml-md-auto" style="margin-top: 1%;">
+        <div class="card" style="height: 6em;">
+          <table>
+            <tr >
+              <th style="padding-left: 5%; padding-top: 5%;"><h2>6235</h2></th>
+              <th style="padding-top: 8%;"><div id="chart-3"></div></th>
+            </tr>
+            <tr>
+              <th style="padding-left: 5%;" class="sub-heading">Online Orders</th>
+              <th></th>
+            </tr>
+          </table>
+        </div>
+      </div>
+
+      <!-- 4th Graph -->
+
+      <div class="col-md-3 ml-md-auto" style="margin-top: 1%;">
+        <div class="card" style="height: 6em;">
+          <table>
+            <tr >
+              <th style="padding-left: 5%; padding-top: 5%;"><h2>6424</h2></th>
+              <th style="padding-top: 8%;"><div id="chart-4"></div></th>
+            </tr>
+            <tr>
+              <th style="padding-left: 5%;" class="sub-heading">New Customers</th>
+              <th></th>
+            </tr>
+          </table>
+        </div>
+      </div>
+
+    </div>
+     
+          <!-- CHARTS - 2nd Row Start -->
+
+          <!-- 1st graph -->
+          <div class="row"  style="margin-top: 1%;">
+            <div class="col-sm" style="margin-top: 1%;">
+            <div class="card">
+              <div id="chart-5" class="d-flex justify-content-center"></div>
+            </div>
+            </div>
+
+            <!-- 2nd Graph -->
+    
+            <div class="col-sm" style="margin-top: 1%;">
+              <div class="card">
+                <div id="chart-6" class="d-flex justify-content-center"></div>
+              </div>
+             </div>
+
+             <!-- 3rd Graph -->
+    
+             <div class="col-sm" style="margin-top: 1%;">
+              <div class="card">
+               <div id="chart-7" class="d-flex justify-content-center"></div>
+              </div>  
+        </div>
+    </div>
+
+    <!-- Table Starts -->
+    <div class="card" style="margin-top: 2%;">
+    <div class="col table-responsive" >
+     
+    <table class="table" style="border-color: #edeff1;">
+        <tr>
+          <th>Sales</th>
+          <th>Date</th>
+          <th>Amount</th>
+          <th>Quantity</th>
+          <th>Price</th>
+          <th>Product Name</th>
+          <th>Product ID</th>
+        </tr>
+        <tr>
+          <th scope="row">34</th>
+          <td>Sep 1, 2020</td>
+          <td>₹85,899</td>
+          <td>62</td>
+          <td>₹26,899</td>
+          <td>New razer</td>
+          <td>523452</td>
+        </tr>
+        <tr>
+          <th scope="row">56</th>
+          <td>November 3, 2020</td>
+          <td>₹85,236</td>
+          <td>73</td>
+          <td>₹35,899</td>
+          <td>Phone</td>
+          <td>2345</td>
+        </tr>
+        <tr>
+          <th scope="row">75</th>
+          <td>January 4, 2020</td>
+          <td>₹26,899</td>
+          <td>867</td>
+          <td>₹46,899</td>
+          <td>TV</td>
+          <td>3462</td>
+        </tr>
+        <tr>
+          <th scope="row">23</th>
+          <td>October 1, 2020</td>
+          <td>₹85,345</td>
+          <td>684</td>
+          <td>₹34,899</td>
+          <td>Coffee</td>
+          <td>3524</td>
+        </tr>
+        <tr>
+          <th scope="row">87</th>
+          <td>March 21, 2020</td>
+          <td>₹26,899</td>
+          <td>345</td>
+          <td>₹64,899</td>
+          <td>Table</td>
+          <td>23532</td>
+        </tr>
+        <tr>
+          <th scope="row">57</th>
+          <td>April 10, 2020</td>
+          <td>₹85,362</td>
+          <td>235</td>
+          <td>₹62,899</td>
+          <td>Keyboard</td>
+          <td>5342</td>
+        </tr>
+    </table>
+  </div>
+  </div>
+  <!-- Table Ends -->
+
+
+  <div class="row">
+  <!-- Pie chart -->
+  <div class="col-xl-4" style="margin-top: 2%;">
+    <div class="card">
+      <ul class="list-group list-group-flush">
+        <li class="list-group-item"><div class="d-flex justify-content-center"><div id="donut" style="width: 400px;"></div></div></li>
+        <li class="list-group-item"><div class="row text-center">
+          <div class="col">
+            Target
+          </div>
+          <div class="col">
+            Last Week
+          </div>
+          <div class="col">
+            Last Month
+          </div>
+        </div></li>
+        <li class="list-group-item"><div class="row text-center">
+          <div class="col">
+            <h4>₹34,857</h4> 
+          </div>
+          <div class="col">
+           <h4>₹53,857</h4>
+          </div>
+          <div class="col">
+            <h4>₹62,857</h4>
+          </div>
+        </div></li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- Pie chart ends -->
+  <div class="col-xl-8" style="margin-top: 2%;">
+    <div class="card table-responsive">
+    <table class="table table-borderless" style="border-color:#edeff1;">
+        <tr>
+          <th scope="col">Sales</th>
+          <th scope="col">Date</th>
+          <th scope="col">Amount</th>
+          <th scope="col">Quantity</th>
+          <th scope="col">Price</th>
+          <th scope="col">Product Name</th>
+          <th scope="col">Product ID</th>
+        </tr>
+        <tr>
+          <th scope="row">34</th>
+          <td>Sep 1, 2020</td>
+          <td>₹85,899</td>
+          <td>62</td>
+          <td>₹26,899</td>
+          <td>New razer</td>
+          <td>523452</td>
+        </tr>
+        <tr>
+          <th scope="row">56</th>
+          <td>November 3, 2020</td>
+          <td>₹85,236</td>
+          <td>73</td>
+          <td>₹35,899</td>
+          <td>Phone</td>
+          <td>2345</td>
+        </tr>
+        <tr>
+          <th scope="row">75</th>
+          <td>January 4, 2020</td>
+          <td>₹26,899</td>
+          <td>867</td>
+          <td>₹46,899</td>
+          <td>TV</td>
+          <td>3462</td>
+        </tr>
+        <tr>
+          <th scope="row">23</th>
+          <td>October 1, 2020</td>
+          <td>₹85,345</td>
+          <td>684</td>
+          <td>₹34,899</td>
+          <td>Coffee</td>
+          <td>3524</td>
+        </tr>
+        <tr>
+          <th scope="row">87</th>
+          <td>March 21, 2020</td>
+          <td>₹26,899</td>
+          <td>345</td>
+          <td>₹64,899</td>
+          <td>Table</td>
+          <td>23532</td>
+        </tr>
+        <tr>
+          <th scope="row">57</th>
+          <td>April 10, 2020</td>
+          <td>₹85,362</td>
+          <td>235</td>
+          <td>₹62,899</td>
+          <td>Keyboard</td>
+          <td>5342</td>
+        </tr>
+    </table>
+  </div>
+  </div>
+  </div>
+    
+  </div>
+  <!-- Sales tab end -->
+
+  <!-- Returns tab starts -->
+  <div class="tab-pane fade" id="nav-returns" role="tabpanel" aria-labelledby="nav-home-tab" style="margin: 1%">
+
+    <div class="row text-center"  style="margin-top: 1%;">
+      <div class="col-md-3"><form action="#">
+        <label for="from">From:</label>
+        <input type="date" id="from" name="from">
+      </form>
+    </div>
+      <div class="col-md-3"><form action="#">
+        <label for="to">To:</label>
+        <input type="date" id="To" name="To">
+        <input type="submit">
+      </form>
+    </div>          
+    </div>
+  
+    <div class="row"  style="margin-top: 1%;">
+      <!-- first graph -->
+
+      <div class="col-md-3 ml-md-auto" style="margin-top: 1%;">
+        <div class="card" style="height: 6em;">
+          <table>
+            <tr >
+              <th style="padding-left: 5%; padding-top: 5%;"><h2 class="graph-heading">₹35,845</h2></th>
+              <th style="padding-top: 8%;"><div id="chart-1"></div></th>
+            </tr>
+            <tr>
+              <th style="padding-left: 5%;" class="sub-heading">Daily Average</th>
+              <th></th>
+            </tr>
+          </table>
+        </div>
+      </div>
+
+      <!-- Second Graph -->
+
+      <div class="col-md-3 ml-md-auto" style="margin-top: 1%;">
+        <div class="card" style="height: 6em;">
+          <table>
+            <tr >
+              <th style="padding-left: 5%; padding-top: 5%;"><h2>₹23,845</h2></th>
+              <th style="padding-top: 8%;"><div id="chart-2"></div></th>
+            </tr>
+            <tr>
+              <th style="padding-left: 5%;" class="sub-heading">Revenue</th>
+              <th></th>
+            </tr>
+          </table>
+        </div>
+      </div>
+
+      <!-- 3rd Graph -->
+
+      <div class="col-md-3 ml-md-auto" style="margin-top: 1%;">
+        <div class="card" style="height: 6em;">
+          <table>
+            <tr >
+              <th style="padding-left: 5%; padding-top: 5%;"><h2>6235</h2></th>
+              <th style="padding-top: 8%;"><div id="chart-3"></div></th>
+            </tr>
+            <tr>
+              <th style="padding-left: 5%;" class="sub-heading">Online Orders</th>
+              <th></th>
+            </tr>
+          </table>
+        </div>
+      </div>
+
+      <!-- 4th Graph -->
+
+      <div class="col-md-3 ml-md-auto" style="margin-top: 1%;">
+        <div class="card" style="height: 6em;">
+          <table>
+            <tr >
+              <th style="padding-left: 5%; padding-top: 5%;"><h2>6424</h2></th>
+              <th style="padding-top: 8%;"><div id="chart-4"></div></th>
+            </tr>
+            <tr>
+              <th style="padding-left: 5%;" class="sub-heading">New Customers</th>
+              <th></th>
+            </tr>
+          </table>
+        </div>
+      </div>
+
+    </div>
+     
+          <!-- CHARTS - 2nd Row Start -->
+
+          <!-- 1st graph -->
+          <div class="row"  style="margin-top: 1%;">
+            <div class="col-sm" style="margin-top: 1%;">
+            <div class="card">
+              <div id="chart-5" class="d-flex justify-content-center"></div>
+            </div>
+            </div>
+
+            <!-- 2nd Graph -->
+    
+            <div class="col-sm" style="margin-top: 1%;">
+              <div class="card">
+                <div id="chart-6" class="d-flex justify-content-center"></div>
+              </div>
+             </div>
+
+             <!-- 3rd Graph -->
+    
+             <div class="col-sm" style="margin-top: 1%;">
+              <div class="card">
+               <div id="chart-7" class="d-flex justify-content-center"></div>
+              </div>  
+        </div>
+    </div>
+
+    <!-- Table Starts -->
+    <div class="card" style="margin-top: 2%;">
+    <div class="col table-responsive" >
+     
+    <table class="table" style="border-color: #edeff1;">
+        <tr>
+          <th>Sales</th>
+          <th>Date</th>
+          <th>Amount</th>
+          <th>Quantity</th>
+          <th>Price</th>
+          <th>Product Name</th>
+          <th>Product ID</th>
+        </tr>
+        <tr>
+          <th scope="row">34</th>
+          <td>Sep 1, 2020</td>
+          <td>₹85,899</td>
+          <td>62</td>
+          <td>₹26,899</td>
+          <td>New razer</td>
+          <td>523452</td>
+        </tr>
+        <tr>
+          <th scope="row">56</th>
+          <td>November 3, 2020</td>
+          <td>₹85,236</td>
+          <td>73</td>
+          <td>₹35,899</td>
+          <td>Phone</td>
+          <td>2345</td>
+        </tr>
+        <tr>
+          <th scope="row">75</th>
+          <td>January 4, 2020</td>
+          <td>₹26,899</td>
+          <td>867</td>
+          <td>₹46,899</td>
+          <td>TV</td>
+          <td>3462</td>
+        </tr>
+        <tr>
+          <th scope="row">23</th>
+          <td>October 1, 2020</td>
+          <td>₹85,345</td>
+          <td>684</td>
+          <td>₹34,899</td>
+          <td>Coffee</td>
+          <td>3524</td>
+        </tr>
+        <tr>
+          <th scope="row">87</th>
+          <td>March 21, 2020</td>
+          <td>₹26,899</td>
+          <td>345</td>
+          <td>₹64,899</td>
+          <td>Table</td>
+          <td>23532</td>
+        </tr>
+        <tr>
+          <th scope="row">57</th>
+          <td>April 10, 2020</td>
+          <td>₹85,362</td>
+          <td>235</td>
+          <td>₹62,899</td>
+          <td>Keyboard</td>
+          <td>5342</td>
+        </tr>
+    </table>
+  </div>
+  </div>
+  <!-- Table Ends -->
+
+
+  <div class="row">
+  <!-- Pie chart -->
+  <div class="col-xl-4" style="margin-top: 2%;">
+    <div class="card">
+      <ul class="list-group list-group-flush">
+        <li class="list-group-item"><div class="d-flex justify-content-center"><div id="donut" style="width: 400px;"></div></div></li>
+        <li class="list-group-item"><div class="row text-center">
+          <div class="col">
+            Target
+          </div>
+          <div class="col">
+            Last Week
+          </div>
+          <div class="col">
+            Last Month
+          </div>
+        </div></li>
+        <li class="list-group-item"><div class="row text-center">
+          <div class="col">
+            <h4>₹34,857</h4> 
+          </div>
+          <div class="col">
+           <h4>₹53,857</h4>
+          </div>
+          <div class="col">
+            <h4>₹62,857</h4>
+          </div>
+        </div></li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- Pie chart ends -->
+  <div class="col-xl-8" style="margin-top: 2%;">
+    <div class="card table-responsive">
+    <table class="table table-borderless" style="border-color:#edeff1;">
+        <tr>
+          <th scope="col">Sales</th>
+          <th scope="col">Date</th>
+          <th scope="col">Amount</th>
+          <th scope="col">Quantity</th>
+          <th scope="col">Price</th>
+          <th scope="col">Product Name</th>
+          <th scope="col">Product ID</th>
+        </tr>
+        <tr>
+          <th scope="row">34</th>
+          <td>Sep 1, 2020</td>
+          <td>₹85,899</td>
+          <td>62</td>
+          <td>₹26,899</td>
+          <td>New razer</td>
+          <td>523452</td>
+        </tr>
+        <tr>
+          <th scope="row">56</th>
+          <td>November 3, 2020</td>
+          <td>₹85,236</td>
+          <td>73</td>
+          <td>₹35,899</td>
+          <td>Phone</td>
+          <td>2345</td>
+        </tr>
+        <tr>
+          <th scope="row">75</th>
+          <td>January 4, 2020</td>
+          <td>₹26,899</td>
+          <td>867</td>
+          <td>₹46,899</td>
+          <td>TV</td>
+          <td>3462</td>
+        </tr>
+        <tr>
+          <th scope="row">23</th>
+          <td>October 1, 2020</td>
+          <td>₹85,345</td>
+          <td>684</td>
+          <td>₹34,899</td>
+          <td>Coffee</td>
+          <td>3524</td>
+        </tr>
+        <tr>
+          <th scope="row">87</th>
+          <td>March 21, 2020</td>
+          <td>₹26,899</td>
+          <td>345</td>
+          <td>₹64,899</td>
+          <td>Table</td>
+          <td>23532</td>
+        </tr>
+        <tr>
+          <th scope="row">57</th>
+          <td>April 10, 2020</td>
+          <td>₹85,362</td>
+          <td>235</td>
+          <td>₹62,899</td>
+          <td>Keyboard</td>
+          <td>5342</td>
+        </tr>
+    </table>
+  </div>
+  </div>
+  </div>
+
+  </div>
+  <!-- returns tab ends -->
+
+  <!-- fulfillment tab starts -->
+  <div class="tab-pane fade" id="nav-fulfillment" role="tabpanel" aria-labelledby="nav-home-tab" style="margin: 1%">
+
+    <div class="row text-center"  style="margin-top: 1%;">
+      <div class="col-md-3"><form action="#">
+        <label for="from">From:</label>
+        <input type="date" id="from" name="from">
+      </form>
+    </div>
+      <div class="col-md-3"><form action="#">
+        <label for="to">To:</label>
+        <input type="date" id="To" name="To">
+        <input type="submit">
+      </form>
+    </div>          
+    </div>
+  
+    <div class="row"  style="margin-top: 1%;">
+      <!-- first graph -->
+
+      <div class="col-md-3 ml-md-auto" style="margin-top: 1%;">
+        <div class="card" style="height: 6em;">
+          <table>
+            <tr >
+              <th style="padding-left: 5%; padding-top: 5%;"><h2 class="graph-heading">₹35,845</h2></th>
+              <th style="padding-top: 8%;"><div id="chart-1"></div></th>
+            </tr>
+            <tr>
+              <th style="padding-left: 5%;" class="sub-heading">Daily Average</th>
+              <th></th>
+            </tr>
+          </table>
+        </div>
+      </div>
+
+      <!-- Second Graph -->
+
+      <div class="col-md-3 ml-md-auto" style="margin-top: 1%;">
+        <div class="card" style="height: 6em;">
+          <table>
+            <tr >
+              <th style="padding-left: 5%; padding-top: 5%;"><h2>₹23,845</h2></th>
+              <th style="padding-top: 8%;"><div id="chart-2"></div></th>
+            </tr>
+            <tr>
+              <th style="padding-left: 5%;" class="sub-heading">Revenue</th>
+              <th></th>
+            </tr>
+          </table>
+        </div>
+      </div>
+
+      <!-- 3rd Graph -->
+
+      <div class="col-md-3 ml-md-auto" style="margin-top: 1%;">
+        <div class="card" style="height: 6em;">
+          <table>
+            <tr >
+              <th style="padding-left: 5%; padding-top: 5%;"><h2>6235</h2></th>
+              <th style="padding-top: 8%;"><div id="chart-3"></div></th>
+            </tr>
+            <tr>
+              <th style="padding-left: 5%;" class="sub-heading">Online Orders</th>
+              <th></th>
+            </tr>
+          </table>
+        </div>
+      </div>
+
+      <!-- 4th Graph -->
+
+      <div class="col-md-3 ml-md-auto" style="margin-top: 1%;">
+        <div class="card" style="height: 6em;">
+          <table>
+            <tr >
+              <th style="padding-left: 5%; padding-top: 5%;"><h2>6424</h2></th>
+              <th style="padding-top: 8%;"><div id="chart-4"></div></th>
+            </tr>
+            <tr>
+              <th style="padding-left: 5%;" class="sub-heading">New Customers</th>
+              <th></th>
+            </tr>
+          </table>
+        </div>
+      </div>
+
+    </div>
+     
+          <!-- CHARTS - 2nd Row Start -->
+
+          <!-- 1st graph -->
+          <div class="row"  style="margin-top: 1%;">
+            <div class="col-sm" style="margin-top: 1%;">
+            <div class="card">
+              <div id="chart-5" class="d-flex justify-content-center"></div>
+            </div>
+            </div>
+
+            <!-- 2nd Graph -->
+    
+            <div class="col-sm" style="margin-top: 1%;">
+              <div class="card">
+                <div id="chart-6" class="d-flex justify-content-center"></div>
+              </div>
+             </div>
+
+             <!-- 3rd Graph -->
+    
+             <div class="col-sm" style="margin-top: 1%;">
+              <div class="card">
+               <div id="chart-7" class="d-flex justify-content-center"></div>
+              </div>  
+        </div>
+    </div>
+
+    <!-- Table Starts -->
+    <div class="card" style="margin-top: 2%;">
+    <div class="col table-responsive" >
+     
+    <table class="table" style="border-color: #edeff1;">
+        <tr>
+          <th>Sales</th>
+          <th>Date</th>
+          <th>Amount</th>
+          <th>Quantity</th>
+          <th>Price</th>
+          <th>Product Name</th>
+          <th>Product ID</th>
+        </tr>
+        <tr>
+          <th scope="row">34</th>
+          <td>Sep 1, 2020</td>
+          <td>₹85,899</td>
+          <td>62</td>
+          <td>₹26,899</td>
+          <td>New razer</td>
+          <td>523452</td>
+        </tr>
+        <tr>
+          <th scope="row">56</th>
+          <td>November 3, 2020</td>
+          <td>₹85,236</td>
+          <td>73</td>
+          <td>₹35,899</td>
+          <td>Phone</td>
+          <td>2345</td>
+        </tr>
+        <tr>
+          <th scope="row">75</th>
+          <td>January 4, 2020</td>
+          <td>₹26,899</td>
+          <td>867</td>
+          <td>₹46,899</td>
+          <td>TV</td>
+          <td>3462</td>
+        </tr>
+        <tr>
+          <th scope="row">23</th>
+          <td>October 1, 2020</td>
+          <td>₹85,345</td>
+          <td>684</td>
+          <td>₹34,899</td>
+          <td>Coffee</td>
+          <td>3524</td>
+        </tr>
+        <tr>
+          <th scope="row">87</th>
+          <td>March 21, 2020</td>
+          <td>₹26,899</td>
+          <td>345</td>
+          <td>₹64,899</td>
+          <td>Table</td>
+          <td>23532</td>
+        </tr>
+        <tr>
+          <th scope="row">57</th>
+          <td>April 10, 2020</td>
+          <td>₹85,362</td>
+          <td>235</td>
+          <td>₹62,899</td>
+          <td>Keyboard</td>
+          <td>5342</td>
+        </tr>
+    </table>
+  </div>
+  </div>
+  <!-- Table Ends -->
+
+
+  <div class="row">
+  <!-- Pie chart -->
+  <div class="col-xl-4" style="margin-top: 2%;">
+    <div class="card">
+      <ul class="list-group list-group-flush">
+        <li class="list-group-item"><div class="d-flex justify-content-center"><div id="donut" style="width: 400px;"></div></div></li>
+        <li class="list-group-item"><div class="row text-center">
+          <div class="col">
+            Target
+          </div>
+          <div class="col">
+            Last Week
+          </div>
+          <div class="col">
+            Last Month
+          </div>
+        </div></li>
+        <li class="list-group-item"><div class="row text-center">
+          <div class="col">
+            <h4>₹34,857</h4> 
+          </div>
+          <div class="col">
+           <h4>₹53,857</h4>
+          </div>
+          <div class="col">
+            <h4>₹62,857</h4>
+          </div>
+        </div></li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- Pie chart ends -->
+  <div class="col-xl-8" style="margin-top: 2%;">
+    <div class="card table-responsive">
+    <table class="table table-borderless" style="border-color:#edeff1;">
+        <tr>
+          <th scope="col">Sales</th>
+          <th scope="col">Date</th>
+          <th scope="col">Amount</th>
+          <th scope="col">Quantity</th>
+          <th scope="col">Price</th>
+          <th scope="col">Product Name</th>
+          <th scope="col">Product ID</th>
+        </tr>
+        <tr>
+          <th scope="row">34</th>
+          <td>Sep 1, 2020</td>
+          <td>₹85,899</td>
+          <td>62</td>
+          <td>₹26,899</td>
+          <td>New razer</td>
+          <td>523452</td>
+        </tr>
+        <tr>
+          <th scope="row">56</th>
+          <td>November 3, 2020</td>
+          <td>₹85,236</td>
+          <td>73</td>
+          <td>₹35,899</td>
+          <td>Phone</td>
+          <td>2345</td>
+        </tr>
+        <tr>
+          <th scope="row">75</th>
+          <td>January 4, 2020</td>
+          <td>₹26,899</td>
+          <td>867</td>
+          <td>₹46,899</td>
+          <td>TV</td>
+          <td>3462</td>
+        </tr>
+        <tr>
+          <th scope="row">23</th>
+          <td>October 1, 2020</td>
+          <td>₹85,345</td>
+          <td>684</td>
+          <td>₹34,899</td>
+          <td>Coffee</td>
+          <td>3524</td>
+        </tr>
+        <tr>
+          <th scope="row">87</th>
+          <td>March 21, 2020</td>
+          <td>₹26,899</td>
+          <td>345</td>
+          <td>₹64,899</td>
+          <td>Table</td>
+          <td>23532</td>
+        </tr>
+        <tr>
+          <th scope="row">57</th>
+          <td>April 10, 2020</td>
+          <td>₹85,362</td>
+          <td>235</td>
+          <td>₹62,899</td>
+          <td>Keyboard</td>
+          <td>5342</td>
+        </tr>
+    </table>
+  </div>
+  </div>
+  </div>
+
+  </div>
+  <!-- fulfillment tab ends -->
+
+  <!-- purchase tab starts -->
+  <div class="tab-pane fade" id="nav-purchases" role="tabpanel" aria-labelledby="nav-home-tab" style="margin: 1%">
+
+    <div class="row text-center"  style="margin-top: 1%;">
+      <div class="col-md-3"><form action="#">
+        <label for="from">From:</label>
+        <input type="date" id="from" name="from">
+      </form>
+    </div>
+      <div class="col-md-3"><form action="#">
+        <label for="to">To:</label>
+        <input type="date" id="To" name="To">
+        <input type="submit">
+      </form>
+    </div>          
+    </div>
+  
+    <div class="row"  style="margin-top: 1%;">
+      <!-- first graph -->
+
+      <div class="col-md-3 ml-md-auto" style="margin-top: 1%;">
+        <div class="card" style="height: 6em;">
+          <table>
+            <tr >
+              <th style="padding-left: 5%; padding-top: 5%;"><h2 class="graph-heading">₹35,845</h2></th>
+              <th style="padding-top: 8%;"><div id="chart-1"></div></th>
+            </tr>
+            <tr>
+              <th style="padding-left: 5%;" class="sub-heading">Daily Average</th>
+              <th></th>
+            </tr>
+          </table>
+        </div>
+      </div>
+
+      <!-- Second Graph -->
+
+      <div class="col-md-3 ml-md-auto" style="margin-top: 1%;">
+        <div class="card" style="height: 6em;">
+          <table>
+            <tr >
+              <th style="padding-left: 5%; padding-top: 5%;"><h2>₹23,845</h2></th>
+              <th style="padding-top: 8%;"><div id="chart-2"></div></th>
+            </tr>
+            <tr>
+              <th style="padding-left: 5%;" class="sub-heading">Revenue</th>
+              <th></th>
+            </tr>
+          </table>
+        </div>
+      </div>
+
+      <!-- 3rd Graph -->
+
+      <div class="col-md-3 ml-md-auto" style="margin-top: 1%;">
+        <div class="card" style="height: 6em;">
+          <table>
+            <tr >
+              <th style="padding-left: 5%; padding-top: 5%;"><h2>6235</h2></th>
+              <th style="padding-top: 8%;"><div id="chart-3"></div></th>
+            </tr>
+            <tr>
+              <th style="padding-left: 5%;" class="sub-heading">Online Orders</th>
+              <th></th>
+            </tr>
+          </table>
+        </div>
+      </div>
+
+      <!-- 4th Graph -->
+
+      <div class="col-md-3 ml-md-auto" style="margin-top: 1%;">
+        <div class="card" style="height: 6em;">
+          <table>
+            <tr >
+              <th style="padding-left: 5%; padding-top: 5%;"><h2>6424</h2></th>
+              <th style="padding-top: 8%;"><div id="chart-4"></div></th>
+            </tr>
+            <tr>
+              <th style="padding-left: 5%;" class="sub-heading">New Customers</th>
+              <th></th>
+            </tr>
+          </table>
+        </div>
+      </div>
+
+    </div>
+     
+          <!-- CHARTS - 2nd Row Start -->
+
+          <!-- 1st graph -->
+          <div class="row"  style="margin-top: 1%;">
+            <div class="col-sm" style="margin-top: 1%;">
+            <div class="card">
+              <div id="chart-5" class="d-flex justify-content-center"></div>
+            </div>
+            </div>
+
+            <!-- 2nd Graph -->
+    
+            <div class="col-sm" style="margin-top: 1%;">
+              <div class="card">
+                <div id="chart-6" class="d-flex justify-content-center"></div>
+              </div>
+             </div>
+
+             <!-- 3rd Graph -->
+    
+             <div class="col-sm" style="margin-top: 1%;">
+              <div class="card">
+               <div id="chart-7" class="d-flex justify-content-center"></div>
+              </div>  
+        </div>
+    </div>
+
+    <!-- Table Starts -->
+    <div class="card" style="margin-top: 2%;">
+    <div class="col table-responsive" >
+     
+    <table class="table" style="border-color: #edeff1;">
+        <tr>
+          <th>Sales</th>
+          <th>Date</th>
+          <th>Amount</th>
+          <th>Quantity</th>
+          <th>Price</th>
+          <th>Product Name</th>
+          <th>Product ID</th>
+        </tr>
+        <tr>
+          <th scope="row">34</th>
+          <td>Sep 1, 2020</td>
+          <td>₹85,899</td>
+          <td>62</td>
+          <td>₹26,899</td>
+          <td>New razer</td>
+          <td>523452</td>
+        </tr>
+        <tr>
+          <th scope="row">56</th>
+          <td>November 3, 2020</td>
+          <td>₹85,236</td>
+          <td>73</td>
+          <td>₹35,899</td>
+          <td>Phone</td>
+          <td>2345</td>
+        </tr>
+        <tr>
+          <th scope="row">75</th>
+          <td>January 4, 2020</td>
+          <td>₹26,899</td>
+          <td>867</td>
+          <td>₹46,899</td>
+          <td>TV</td>
+          <td>3462</td>
+        </tr>
+        <tr>
+          <th scope="row">23</th>
+          <td>October 1, 2020</td>
+          <td>₹85,345</td>
+          <td>684</td>
+          <td>₹34,899</td>
+          <td>Coffee</td>
+          <td>3524</td>
+        </tr>
+        <tr>
+          <th scope="row">87</th>
+          <td>March 21, 2020</td>
+          <td>₹26,899</td>
+          <td>345</td>
+          <td>₹64,899</td>
+          <td>Table</td>
+          <td>23532</td>
+        </tr>
+        <tr>
+          <th scope="row">57</th>
+          <td>April 10, 2020</td>
+          <td>₹85,362</td>
+          <td>235</td>
+          <td>₹62,899</td>
+          <td>Keyboard</td>
+          <td>5342</td>
+        </tr>
+    </table>
+  </div>
+  </div>
+  <!-- Table Ends -->
+
+
+  <div class="row">
+  <!-- Pie chart -->
+  <div class="col-xl-4" style="margin-top: 2%;">
+    <div class="card">
+      <ul class="list-group list-group-flush">
+        <li class="list-group-item"><div class="d-flex justify-content-center"><div id="donut" style="width: 400px;"></div></div></li>
+        <li class="list-group-item"><div class="row text-center">
+          <div class="col">
+            Target
+          </div>
+          <div class="col">
+            Last Week
+          </div>
+          <div class="col">
+            Last Month
+          </div>
+        </div></li>
+        <li class="list-group-item"><div class="row text-center">
+          <div class="col">
+            <h4>₹34,857</h4> 
+          </div>
+          <div class="col">
+           <h4>₹53,857</h4>
+          </div>
+          <div class="col">
+            <h4>₹62,857</h4>
+          </div>
+        </div></li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- Pie chart ends -->
+  <div class="col-xl-8" style="margin-top: 2%;">
+    <div class="card table-responsive">
+    <table class="table table-borderless" style="border-color:#edeff1;">
+        <tr>
+          <th scope="col">Sales</th>
+          <th scope="col">Date</th>
+          <th scope="col">Amount</th>
+          <th scope="col">Quantity</th>
+          <th scope="col">Price</th>
+          <th scope="col">Product Name</th>
+          <th scope="col">Product ID</th>
+        </tr>
+        <tr>
+          <th scope="row">34</th>
+          <td>Sep 1, 2020</td>
+          <td>₹85,899</td>
+          <td>62</td>
+          <td>₹26,899</td>
+          <td>New razer</td>
+          <td>523452</td>
+        </tr>
+        <tr>
+          <th scope="row">56</th>
+          <td>November 3, 2020</td>
+          <td>₹85,236</td>
+          <td>73</td>
+          <td>₹35,899</td>
+          <td>Phone</td>
+          <td>2345</td>
+        </tr>
+        <tr>
+          <th scope="row">75</th>
+          <td>January 4, 2020</td>
+          <td>₹26,899</td>
+          <td>867</td>
+          <td>₹46,899</td>
+          <td>TV</td>
+          <td>3462</td>
+        </tr>
+        <tr>
+          <th scope="row">23</th>
+          <td>October 1, 2020</td>
+          <td>₹85,345</td>
+          <td>684</td>
+          <td>₹34,899</td>
+          <td>Coffee</td>
+          <td>3524</td>
+        </tr>
+        <tr>
+          <th scope="row">87</th>
+          <td>March 21, 2020</td>
+          <td>₹26,899</td>
+          <td>345</td>
+          <td>₹64,899</td>
+          <td>Table</td>
+          <td>23532</td>
+        </tr>
+        <tr>
+          <th scope="row">57</th>
+          <td>April 10, 2020</td>
+          <td>₹85,362</td>
+          <td>235</td>
+          <td>₹62,899</td>
+          <td>Keyboard</td>
+          <td>5342</td>
+        </tr>
+    </table>
+  </div>
+  </div>
+  </div>
+  
+  </div>
+  <!-- purchase tab ends -->
+
+  <!-- payment tab starts -->
+  <div class="tab-pane fade" id="nav-payments" role="tabpanel" aria-labelledby="nav-home-tab" style="margin: 1%">
+
+    <div class="row text-center"  style="margin-top: 1%;">
+      <div class="col-md-3"><form action="#">
+        <label for="from">From:</label>
+        <input type="date" id="from" name="from">
+      </form>
+    </div>
+      <div class="col-md-3"><form action="#">
+        <label for="to">To:</label>
+        <input type="date" id="To" name="To">
+        <input type="submit">
+      </form>
+    </div>          
+    </div>
+  
+    <div class="row"  style="margin-top: 1%;">
+      <!-- first graph -->
+
+      <div class="col-md-3 ml-md-auto" style="margin-top: 1%;">
+        <div class="card" style="height: 6em;">
+          <table>
+            <tr >
+              <th style="padding-left: 5%; padding-top: 5%;"><h2 class="graph-heading">₹35,845</h2></th>
+              <th style="padding-top: 8%;"><div id="chart-1"></div></th>
+            </tr>
+            <tr>
+              <th style="padding-left: 5%;" class="sub-heading">Daily Average</th>
+              <th></th>
+            </tr>
+          </table>
+        </div>
+      </div>
+
+      <!-- Second Graph -->
+
+      <div class="col-md-3 ml-md-auto" style="margin-top: 1%;">
+        <div class="card" style="height: 6em;">
+          <table>
+            <tr >
+              <th style="padding-left: 5%; padding-top: 5%;"><h2>₹23,845</h2></th>
+              <th style="padding-top: 8%;"><div id="chart-2"></div></th>
+            </tr>
+            <tr>
+              <th style="padding-left: 5%;" class="sub-heading">Revenue</th>
+              <th></th>
+            </tr>
+          </table>
+        </div>
+      </div>
+
+      <!-- 3rd Graph -->
+
+      <div class="col-md-3 ml-md-auto" style="margin-top: 1%;">
+        <div class="card" style="height: 6em;">
+          <table>
+            <tr >
+              <th style="padding-left: 5%; padding-top: 5%;"><h2>6235</h2></th>
+              <th style="padding-top: 8%;"><div id="chart-3"></div></th>
+            </tr>
+            <tr>
+              <th style="padding-left: 5%;" class="sub-heading">Online Orders</th>
+              <th></th>
+            </tr>
+          </table>
+        </div>
+      </div>
+
+      <!-- 4th Graph -->
+
+      <div class="col-md-3 ml-md-auto" style="margin-top: 1%;">
+        <div class="card" style="height: 6em;">
+          <table>
+            <tr >
+              <th style="padding-left: 5%; padding-top: 5%;"><h2>6424</h2></th>
+              <th style="padding-top: 8%;"><div id="chart-4"></div></th>
+            </tr>
+            <tr>
+              <th style="padding-left: 5%;" class="sub-heading">New Customers</th>
+              <th></th>
+            </tr>
+          </table>
+        </div>
+      </div>
+
+    </div>
+     
+          <!-- CHARTS - 2nd Row Start -->
+
+          <!-- 1st graph -->
+          <div class="row"  style="margin-top: 1%;">
+            <div class="col-sm" style="margin-top: 1%;">
+            <div class="card">
+              <div id="chart-5" class="d-flex justify-content-center"></div>
+            </div>
+            </div>
+
+            <!-- 2nd Graph -->
+    
+            <div class="col-sm" style="margin-top: 1%;">
+              <div class="card">
+                <div id="chart-6" class="d-flex justify-content-center"></div>
+              </div>
+             </div>
+
+             <!-- 3rd Graph -->
+    
+             <div class="col-sm" style="margin-top: 1%;">
+              <div class="card">
+               <div id="chart-7" class="d-flex justify-content-center"></div>
+              </div>  
+        </div>
+    </div>
+
+    <!-- Table Starts -->
+    <div class="card" style="margin-top: 2%;">
+    <div class="col table-responsive" >
+     
+    <table class="table" style="border-color: #edeff1;">
+        <tr>
+          <th>Sales</th>
+          <th>Date</th>
+          <th>Amount</th>
+          <th>Quantity</th>
+          <th>Price</th>
+          <th>Product Name</th>
+          <th>Product ID</th>
+        </tr>
+        <tr>
+          <th scope="row">34</th>
+          <td>Sep 1, 2020</td>
+          <td>₹85,899</td>
+          <td>62</td>
+          <td>₹26,899</td>
+          <td>New razer</td>
+          <td>523452</td>
+        </tr>
+        <tr>
+          <th scope="row">56</th>
+          <td>November 3, 2020</td>
+          <td>₹85,236</td>
+          <td>73</td>
+          <td>₹35,899</td>
+          <td>Phone</td>
+          <td>2345</td>
+        </tr>
+        <tr>
+          <th scope="row">75</th>
+          <td>January 4, 2020</td>
+          <td>₹26,899</td>
+          <td>867</td>
+          <td>₹46,899</td>
+          <td>TV</td>
+          <td>3462</td>
+        </tr>
+        <tr>
+          <th scope="row">23</th>
+          <td>October 1, 2020</td>
+          <td>₹85,345</td>
+          <td>684</td>
+          <td>₹34,899</td>
+          <td>Coffee</td>
+          <td>3524</td>
+        </tr>
+        <tr>
+          <th scope="row">87</th>
+          <td>March 21, 2020</td>
+          <td>₹26,899</td>
+          <td>345</td>
+          <td>₹64,899</td>
+          <td>Table</td>
+          <td>23532</td>
+        </tr>
+        <tr>
+          <th scope="row">57</th>
+          <td>April 10, 2020</td>
+          <td>₹85,362</td>
+          <td>235</td>
+          <td>₹62,899</td>
+          <td>Keyboard</td>
+          <td>5342</td>
+        </tr>
+    </table>
+  </div>
+  </div>
+  <!-- Table Ends -->
+
+
+  <div class="row">
+  <!-- Pie chart -->
+  <div class="col-xl-4" style="margin-top: 2%;">
+    <div class="card">
+      <ul class="list-group list-group-flush">
+        <li class="list-group-item"><div class="d-flex justify-content-center"><div id="donut" style="width: 400px;"></div></div></li>
+        <li class="list-group-item"><div class="row text-center">
+          <div class="col">
+            Target
+          </div>
+          <div class="col">
+            Last Week
+          </div>
+          <div class="col">
+            Last Month
+          </div>
+        </div></li>
+        <li class="list-group-item"><div class="row text-center">
+          <div class="col">
+            <h4>₹34,857</h4> 
+          </div>
+          <div class="col">
+           <h4>₹53,857</h4>
+          </div>
+          <div class="col">
+            <h4>₹62,857</h4>
+          </div>
+        </div></li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- Pie chart ends -->
+  <div class="col-xl-8" style="margin-top: 2%;">
+    <div class="card table-responsive">
+    <table class="table table-borderless" style="border-color:#edeff1;">
+        <tr>
+          <th scope="col">Sales</th>
+          <th scope="col">Date</th>
+          <th scope="col">Amount</th>
+          <th scope="col">Quantity</th>
+          <th scope="col">Price</th>
+          <th scope="col">Product Name</th>
+          <th scope="col">Product ID</th>
+        </tr>
+        <tr>
+          <th scope="row">34</th>
+          <td>Sep 1, 2020</td>
+          <td>₹85,899</td>
+          <td>62</td>
+          <td>₹26,899</td>
+          <td>New razer</td>
+          <td>523452</td>
+        </tr>
+        <tr>
+          <th scope="row">56</th>
+          <td>November 3, 2020</td>
+          <td>₹85,236</td>
+          <td>73</td>
+          <td>₹35,899</td>
+          <td>Phone</td>
+          <td>2345</td>
+        </tr>
+        <tr>
+          <th scope="row">75</th>
+          <td>January 4, 2020</td>
+          <td>₹26,899</td>
+          <td>867</td>
+          <td>₹46,899</td>
+          <td>TV</td>
+          <td>3462</td>
+        </tr>
+        <tr>
+          <th scope="row">23</th>
+          <td>October 1, 2020</td>
+          <td>₹85,345</td>
+          <td>684</td>
+          <td>₹34,899</td>
+          <td>Coffee</td>
+          <td>3524</td>
+        </tr>
+        <tr>
+          <th scope="row">87</th>
+          <td>March 21, 2020</td>
+          <td>₹26,899</td>
+          <td>345</td>
+          <td>₹64,899</td>
+          <td>Table</td>
+          <td>23532</td>
+        </tr>
+        <tr>
+          <th scope="row">57</th>
+          <td>April 10, 2020</td>
+          <td>₹85,362</td>
+          <td>235</td>
+          <td>₹62,899</td>
+          <td>Keyboard</td>
+          <td>5342</td>
+        </tr>
+    </table>
+  </div>
+  </div>
+  </div>
+  
+  </div>
+  <!-- payment tab ends -->
+
+    </div> 
+    </div>
 
       <!-- APEX CHARTS JS -->
 
